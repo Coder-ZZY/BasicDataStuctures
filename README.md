@@ -60,10 +60,10 @@ a = [0, 1, 2]
 min_heap = Heap(a)            # min heap by default
 max_heap = Heap(a, type="max")  # max heap
 
-min_heap.push(3)
-min_heap.push(1)
-min_heap.push(2)
-print(min_heap.pop())  # 1
+min_heap.heappush(3)
+min_heap.heappush(1)
+min_heap.heappush(2)
+print(min_heap.heappop())  # 1
 
 # Graph
 from BasicDataStructure import Graph
