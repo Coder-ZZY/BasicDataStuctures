@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "BasicDataStructure"
 version = "0.1.0b1"
-description = "Common data structures for LeetCode problems: graphs, heaps, stacks, tries, union-find, and more."
+description = "Python version common data structures for LeetCode problems: graphs, heaps, stacks, tries, union-find, and more."
 readme = "README.md"
 requires-python = ">=3.10"
 license = {text = "MIT"}
