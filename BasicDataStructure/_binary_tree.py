@@ -3,7 +3,7 @@ class TreeNode:
         self.val = val
         self.left = left
         self.right = right
-        
+    
     @staticmethod
     def from_list(arr: list[int | None]):
         if not arr:
